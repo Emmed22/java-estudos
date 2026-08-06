@@ -10,7 +10,7 @@ public class Main {
         nomes.add("Ana");
 
         for (String nome : nomes){
-            System.out.println("Olá" +nome);
+            System.out.println("Olá " +nome);
         }
     }
 }
