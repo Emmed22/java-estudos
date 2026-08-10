@@ -11,9 +11,11 @@ public class Main {
         nomes.add("Fernanda");
         nomes.add("Pedro");
         nomes.add("Amanda");
+        nomes.add("Antonio Carlos");
 
         for(String nome : nomes){
-            System.out.println("Olá " + nome +" !");
+            System.out.println( nome +" possui " + nome.length() 
+        + " letras.");
 
         }
     }
