@@ -13,10 +13,10 @@ public class Main {
         nomes.add("Amanda");
         nomes.add("Antonio Carlos");
 
-        for(String nome : nomes){
+        for(int i = 0; i< nomes.size();i ++ ){
+            String nome = nomes.get(i);
             if (nome.length()> 4){
-                System.out.println( nome +" possui " + nome.length() 
-        + " letras.");
+                System.out.println( nome +" está na posição " + i);
             }
             
 
