@@ -14,8 +14,11 @@ public class Main {
         nomes.add("Antonio Carlos");
 
         for(String nome : nomes){
-            System.out.println( nome +" possui " + nome.length() 
+            if (nome.length()> 4){
+                System.out.println( nome +" possui " + nome.length() 
         + " letras.");
+            }
+            
 
         }
     }
