@@ -15,7 +15,9 @@ public class Main {
         //contador++;
      //}
      for ( int i =0; i< precos.size(); i++){
+         if (precos.get(i)> 10){
         System.out.println( i+ " - " + precos.get(i));
+         }
      }
     }     
 }
