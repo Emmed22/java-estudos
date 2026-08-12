@@ -3,21 +3,19 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List <String> frutas = new ArrayList<>();
-        frutas.add("Maçã");
-        frutas.add("Banana");
-        frutas.add("Laranja");
-        frutas.add("Uva");
-        frutas.add("Morango");
+     List<Double> precos = new ArrayList<>();
+     precos.add(10.00);
+     precos.add(5.00);
+     precos.add(45.00);
+     precos.add(60.00);
 
-        //for(int i =0; i<frutas.size(); i++){
-        //    System.out.println(i + " - "+ frutas.get(i)
-         //   );
-       // }
-       int contador = 0;
-       for ( String fruta : frutas){
-        System.out.println( contador+ " - " + fruta);
-        contador++;
-       }
+     //int contador=0;
+     //for ( Double preco : precos){
+       // System.out.println(contador + preco);
+        //contador++;
+     //}
+     for ( int i =0; i< precos.size(); i++){
+        System.out.println( i+ " - " + precos.get(i));
+     }
     }     
 }
