@@ -12,15 +12,25 @@ public class Main {
     nomes.add("Pedro");
     nomes.add("Amanda");
 
-    //for (int i = 0; i < nomes.size(); i++ ){
-      //if (nomes.get(i).length()> 4){
-        // System.out.println(i + " - " +  nomes.get(i));
-      //}
-    //}
-    System.out.println(nomes);
+    //Desafio — modificar uma lista usando índice.
+    //Objetivo do exercício:
 
-      nomes.set(2,"Amanda");//troca o elemento que está no índice 2 pelo valor Amanda.
-      nomes.remove(1);//remove o que está no índice 1 = João.
-      System.out.println(nomes);//imprime a nova lista.
+//Queremos que o programa faça duas coisas:
+
+//1. Encontre os nomes com mais de 5 caracteres.
+
+//2. Para esses nomes, coloque "!" no final do nome usando set().
+ 
+    for ( int i =0 ; i < nomes.size(); i++){
+      
+      if (nomes.get(i).length()>5){
+        nomes.set(i, nomes.get(i) + " ! ");
+     
+       // System.out.println(nome); se deixar ele dentro do if, o java pensa: só vou executar se o nome tiver + de 5 caracteres.
+      }
+      String nome = nomes.get(i);
+      System.out.println(nome);// por isso ele deve estar fora do if
+    }
+    
     }     
 }
