@@ -3,21 +3,24 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-     List<Double> precos = new ArrayList<>();
-     precos.add(10.00);
-     precos.add(5.00);
-     precos.add(45.00);
-     precos.add(60.00);
+    List<String> nomes = new ArrayList<>();
+    nomes.add("Maria");
+    nomes.add("João");
+    nomes.add("Ana");
+    nomes.add("Carlos");
+    nomes.add("Antonio");
+    nomes.add("Pedro");
+    nomes.add("Amanda");
 
-     //int contador=0;
-     //for ( Double preco : precos){
-       // System.out.println(contador + preco);
-        //contador++;
-     //}
-     for ( int i =0; i< precos.size(); i++){
-         if (precos.get(i)> 10){
-        System.out.println( i+ " - " + precos.get(i));
-         }
-     }
+    //for (int i = 0; i < nomes.size(); i++ ){
+      //if (nomes.get(i).length()> 4){
+        // System.out.println(i + " - " +  nomes.get(i));
+      //}
+    //}
+    System.out.println(nomes);
+
+      nomes.set(2,"Amanda");//troca o elemento que está no índice 2 pelo valor Amanda.
+      nomes.remove(1);//remove o que está no índice 1 = João.
+      System.out.println(nomes);//imprime a nova lista.
     }     
 }
