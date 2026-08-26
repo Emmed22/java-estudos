@@ -7,6 +7,8 @@ Repositório criado para registrar minha evolução nos estudos de Java.
 ```text
 java-fundamentos/
 └── aula-01-list-arraylist/
+└── aula-05-metodos/
+
 
 ## Tecnologias
 
@@ -18,7 +20,7 @@ java-fundamentos/
 ## Progresso
 
 - [x] Aula 01 - List e ArrayList
-- [ ] Aula 02 - For
-- [ ] Aula 03 - Foreach
-- [ ] Aula 04 - If
+- [x] Aula 02 - For
+- [x] Aula 03 - Foreach
+- [x] Aula 04 - If
 - [ ] Aula 05 - Métodos
