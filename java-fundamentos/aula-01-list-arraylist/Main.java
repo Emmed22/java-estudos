@@ -28,9 +28,9 @@ public class Main {
      
        // System.out.println(nome); se deixar ele dentro do if, o java pensa: só vou executar se o nome tiver + de 5 caracteres.
       }
-      String nome = nomes.get(i);
-      System.out.println(nome);// por isso ele deve estar fora do if
+      //String nome = nomes.get(i);
+     // System.out.println(nomes); por isso ele deve estar fora do if, mas se ficar aqui dentro do for cada elemento ficará em uma linha.
     }
-    
+     System.out.println(nomes);// aqui ela imprime a lista inteira
     }     
 }
