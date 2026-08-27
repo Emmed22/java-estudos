@@ -34,3 +34,8 @@ public class Main {
      System.out.println(nomes);// aqui ela imprime a lista inteira
     }     
 }
+//println dentro do for
+//→ imprime elemento por elemento
+
+//println depois do for
+//→ imprime a lista inteira depois das modificações
