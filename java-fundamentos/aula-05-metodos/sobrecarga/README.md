@@ -1,0 +1,1 @@
+-> A sobrecarga consiste em criar métodos que tenham o mesmo nome, mas recebam parametros diferentes, tanto em questão de quantidade, tipo e ordem de tipos.
