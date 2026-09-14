@@ -1,4 +1,4 @@
-Nesta aula 05, estarei aprendendo mais sobre os métodos em Java, e aqui deixarei alguns pontos importantes a cada tópico estudado.
+Nesta aula, estarei aprendendo mais sobre os métodos em Java, e aqui deixarei alguns pontos importantes a cada tópico estudado.
 
 -> Sobre método: Método é uma forma de separar uma tarefa do programa em um bloco de código que pode ser chamado quando necessário.
 
