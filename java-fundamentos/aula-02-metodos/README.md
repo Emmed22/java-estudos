@@ -14,14 +14,3 @@ Nesta aula, estarei aprendendo mais sobre os métodos em Java, e aqui deixarei a
 
 -> Você decide se um método vai retornar algo ou não pelo que precisa fazer com o resultado dele depois que termina, se irá fazer outro procedimento e pecisará do dado depois o mais recomendável é ser um método que retorne algo, se caso não precise e só quer que faça algo naquele momento, então deve ser void.
 
-#Desafio: Crie um método chamado dobro que:
-
-receba um int
-calcule o dobro
-retorne o resultado
-
-Depois, no main, faça:
-
-dobro(5)
-
-e guarde o resultado em uma variável chamada resultado.

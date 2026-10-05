@@ -4,29 +4,39 @@ public class Main {
     
 public static void main(String[] args) {
 
-System.out.println( multiplicar(5,6,4)); //Ele vai saber qual das duas estarei chamando através da quantidade de parâmetros que passei. 
+    //Desafio 1:
+    System.out.println( multiplicar(5,6,4)); //Ele vai saber qual das duas estarei chamando através da quantidade de parâmetros que passei. 
 
-System.out.println(saudacao("Antonio", 20));// Aqui saberá pelos tipos e quantidade.
+    
+    //Desafio 2:
+    System.out.println(saudacao("Antonio", 20));// Aqui saberá pelos tipos e quantidade.
 
-//chamando o método calcularMedia():
+    //Desafio 3:
+    double resultado = calcularMedia(7,8); // guardando o valor o retornado do método em outra variável.
 
-calcularMedia(7,8);
+    System.out.println(resultado);//Pedindo para mostrar na tela.
 
-double resultado = calcularMedia(7,8); // guardando o valor o retornado do método em outra variável.
+    //Desafio 4:
+    somar(68.4,198.7);
 
-System.out.println(resultado);//Pedindo para mostrar na tela.
+    //Desafio 5:
+   mostrarMensagem();
 
-//Chamando desafio 4:
-somar(68.4,198.7);
-
-//Chamando desafio 6:
-System.out.println(maior(9, 0, 8));
-System.out.println(maior(2,3,8));
+    //Chamando desafio 6:
+    System.out.println(maior(9, 0, 8));
+    System.out.println(maior(2,3,8));
 
 
-//Chamando desafio 7:
-contar(5,10);
+    //Chamando desafio 7:
+    contar(5,10);
+
+    //Chamando desafio 8:
+    System.out.println(verificarNumero(8, 2));
+
 } 
+
+
+//  ***** DESAFIOS PARA PRÁTICA *****
 
 //Desafio 1:
 
@@ -80,8 +90,8 @@ static double somar(double a, double b){
 static void mostrarMensagem(){
     System.out.println("Olá!");
 }
-static void mostrartMensagem(String nome){
-    System.out.println("Olá" + nome);
+static void mostrarMensagem(String nome){
+    System.out.println("Olá " + nome);
 
 }
 //Desafio 6: 
@@ -95,14 +105,17 @@ static int maior(int a, int b){
 
 }
 static int maior(int a, int b, int c){
-    if (a > b && a > c){
-        return a;
-    }if(b > a && b > c){
-        return b;
-    }else{
-        return c;
+    int maior = a;
+
+    if(b> maior){
+        maior = b;
     }
+    if (c > maior){
+        maior = c;
+    }
+    return maior;
 }
+
 //Desafio 7:
 //Sobrecarga + for:
 static void contar(int limite){
@@ -116,5 +129,24 @@ static void contar(int inicio, int limite){
         System.out.println(i);
     }
 
+}
+
+//Desafio 8:
+//verificarNumero-sobrecarga + boolean
+
+static boolean verificarNumero(int numero){
+    if (numero % 2 == 0){
+        return true;
+    } else { 
+        return false;
+    }
+}
+
+static boolean verificarNumero(int numero, int divisor){
+    if( numero % divisor == 0){ // O operador % retorna o resto da divisão e depois compara-se o resultado com ==.
+        return true;
+    } else{
+        return false;
+    }
 }
 }
